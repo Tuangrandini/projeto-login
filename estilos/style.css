@@ -13,6 +13,8 @@ Lilás: #5f2c82
     box-sizing: border-box;
 }
 
+
+
 html, body {
     background-color: #5f2c82;
     height: 100vh;
@@ -36,6 +38,8 @@ section#login{
     height: 500px;
     border-radius: 20px;
     overflow: hidden; /*Sem isso a borda não ficaria arredondada. Com essa propriedade tudo que estiver fora da borda vai ficar escondido*/
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
